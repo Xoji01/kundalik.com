@@ -1,12 +1,293 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<!-- !DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> --><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" ng-app="dnevnik" ng-jq=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-a8311bf9-e294-419a-9c35-1665ab22fbb1@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-1a5df5bd-26d0-4985-93e2-9316d98ba5e3@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-9ea91e10-0e79-40c8-b31f-384f70f8d552@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-0ac57c8e-253d-4bcf-809a-ec2fc7872317@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-3c207068-9802-4f54-ae86-0e548f498878@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-5d319f13-8258-48c6-8a63-dd01c4af61c7@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-8f8412c6-5697-4094-8b70-a53ea1531496@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-56162974-21ff-4eeb-adbe-7e65490f748c@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-3c65c145-40dc-4d18-9102-80a02f1f2164@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-cd773f7d-a461-4630-8100-d0350c6af030@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-5e6469d8-dde3-46a7-b7f0-95aa763c7e17@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-9126490e-ff7a-4635-b917-82a9510e9a04@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-4e9a2325-945a-40df-929a-e9e8adcd1620@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-4e2ea699-0f36-44c1-b745-ead4b7e289ad@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-6cba96f7-ada1-46e7-b396-f8e49ef31729@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-4bde39b8-a941-413e-8832-734f11c738e3@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-d9194e94-01a1-47a0-96ea-f8e14601dde3@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-c1d5b522-7024-4e21-a7eb-04756502be3b@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-cb98d031-4dfb-42e8-887b-a67b4ba9d3c1@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-52c28555-5765-44fc-9afe-bc2b210f9857@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-d624278e-2a8d-4905-9e15-b3d3ec0c09bb@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-8fcc7359-0e89-4977-a02b-37671408d09b@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-8b356b00-d3f3-4932-93bd-e8ebfba0b047@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-e044a1ef-6261-4a36-85ef-091ab0312a2a@mhtml.blink" /><link rel="stylesheet" type="text/css" href="cid:css-66cd3e15-fc60-4c1d-9add-e16a92be68bc@mhtml.blink" />
+    <meta name="google" value="notranslate">
     
-    <script src="./index.js"></script>
-</body>
-</html>
+    <title>Лента новостей</title>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Удобная и безопасная среда общения школьников, учителей и родителей. Домашние задания, расписание, оценки - всё в одном месте.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    
+    
+    
+        <link rel="manifest" href="https://emaktab.uz/manifest">
+        
+
+    
+    <link rel="icon" href="https://static.emaktab.uz/img/icons/favicon_Uz.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://static.emaktab.uz/img/icons/favicon_Uz.ico" type="image/x-icon">
+    
+
+        <link rel="stylesheet" href="https://static.emaktab.uz/styles/main/common.css?v=38675ba2" media="all" type="text/css">
+        <link rel="stylesheet" href="https://static.emaktab.uz/blocks/blocks.css?v=fdfcd819" media="all" type="text/css">
+        <link rel="stylesheet" href="https://static.emaktab.uz/css/adaptive.css?v=f02f9b01" media="all" type="text/css"> 
+    <link rel="stylesheet" href="https://static.emaktab.uz/client/notifications.css?v=d76e0767" type="text/css">
+
+    
+
+
+            
+    
+    
+            
+    
+    
+
+    <link rel="preconnect" href="https://yastatic.net/"><link rel="preconnect" href="https://avatars.mds.yandex.net/"><link rel="preconnect" href="https://mc.yandex.ru/"><link rel="preconnect" href="https://ads.adfox.ru/"><link rel="preload" href="https://yastatic.net/s3/home/fonts/ys/3/text-variable-full.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+    
+    
+
+    
+    
+    
+    
+    
+</head>
+<body class="page-body">
+<div class="b5a16b3b7bd74a8fa335fe763d3aa2b2 asyncBackgroundBanner"><div class="bannerBackground"><!--В <head> сайта один раз добавьте код загрузчика-->
+
+
+<!--AdFox START-->
+<!--Dnevnik.ru-->
+<!--Площадка: Kundalik.com / main / BackGround-->
+<!--Категория: <не задана>-->
+<!--Тип баннера: BackGround (970_200)-->
+<div id="adfox_168906318644089780"></div>
+</div></div><div class="634e57eeb8fb47c68d4f5c043d4bb8a1 asyncRichMediaBanner"></div>
+
+    <div class="header_adaptive_wrapper" style="visibility: visible;">
+        
+    <div class="page-header " style="transform: scale(0.402893); transform-origin: 0px 0px;">
+        <div class="page-header__panel-wrapper">
+            <div class="page-header__panel">
+                <div class="page-header__panel-container">
+                    <a href="https://emaktab.uz/userfeed/" title="На главную страницу eMaktab" class="header-logotype header-logotype_uz"></a>
+                    
+<div class="user-counters">
+
+<a class="button-with-counter button-with-counter_message button-with-counter_first    trackable ya-metrika-trackable" data-category="Шапка" data-action="ЛС" data-target="messenger" title="Нет новых сообщений" href="https://emaktab.uz/soc/messenger/">
+    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="22" viewBox="0 0 23 22">
+        <path fill="#AAB6C2" fill-rule="evenodd" d="M7.293.25c2.873 0 5.368 1.915 6.213 4.66l.07.244-1.449.387C11.532 3.313 9.562 1.75 7.293 1.75c-2.77 0-5.019 2.31-5.019 5.176 0 1.05.3 2.048.853 2.89a.75.75 0 0 1 .113.531c-.099.618-.34 1.192-.694 1.68l-.055.068.052-.001a1.73 1.73 0 0 0 1.038-.484l.117-.124a.75.75 0 0 1 .97-.146c.313.198.65.36 1.005.484l.27.086-.415 1.442a6.509 6.509 0 0 1-.861-.315L4.38 12.9l-.133.102a3.217 3.217 0 0 1-1.669.593l-.204.007c-.648 0-1.267-.19-1.792-.542a.75.75 0 0 1 .04-1.271 2.352 2.352 0 0 0 1.055-1.331l.025-.094-.135-.24a6.758 6.758 0 0 1-.786-2.89l-.007-.308C.774 3.24 3.686.25 7.293.25zm14.345 13.802c0 1.218-.313 2.391-.897 3.425l-.134.225.024.081c.178.564.549 1.051 1.048 1.378l.153.093a.75.75 0 0 1 .037 1.286 3.564 3.564 0 0 1-1.92.559c-.81 0-1.576-.27-2.19-.748l-.021-.017-.065.035a7.148 7.148 0 0 1-2.83.722l-.333.008c-3.935 0-7.128-3.152-7.128-7.047 0-3.894 3.193-7.046 7.128-7.046s7.128 3.152 7.128 7.046zm-12.756 0c0 3.062 2.517 5.547 5.628 5.547 1.06 0 2.073-.288 2.952-.824a.75.75 0 0 1 .951.142c.383.43.936.682 1.532.681l-.053-.062a4.056 4.056 0 0 1-.78-1.625l-.044-.227a.75.75 0 0 1 .12-.547c.616-.902.95-1.968.95-3.085 0-3.06-2.517-5.546-5.628-5.546-3.11 0-5.628 2.485-5.628 5.546z"></path>
+    </svg>
+    <div class="button-with-counter__counter" style="display: none;"></div>
+</a> 
+    <div class="ntf-notifications-container">
+          <div id="ntf-notifications-root"><div class="_1hcSH"><div class="_3ZNdI" title="Нет новых уведомлений"></div></div></div>
+          <div class="ntf-notifications-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 18 18"><g><g><path fill="#aab6c2" d="M11.71 4.522c-.5-1.284-1.198-2.212-1.96-2.588v3.014a8.172 8.172 0 0 0 1.96-.426zm-5.424.009a8.186 8.186 0 0 0 1.964.42V1.934c-.764.377-1.463 1.308-1.964 2.597zm.01 8.963c.5 1.276 1.195 2.198 1.954 2.572v-2.989a8.19 8.19 0 0 0-1.954.417zm5.405.009a8.176 8.176 0 0 0-1.951-.423v2.986c.757-.374 1.451-1.292 1.95-2.563zM5.848 5.968a13.217 13.217 0 0 0-.314 2.282H8.25V6.456a9.663 9.663 0 0 1-2.402-.488zm6.302-.01a9.65 9.65 0 0 1-2.4.496V8.25h2.716a13.212 13.212 0 0 0-.316-2.291zm-.007 6.11c.168-.715.28-1.494.323-2.318H9.75v1.824a9.652 9.652 0 0 1 2.393.494zm-6.289-.01a9.665 9.665 0 0 1 2.396-.486V9.75H5.534c.043.82.154 1.597.32 2.309zM17.75 9A8.75 8.75 0 1 1 .25 9a8.75 8.75 0 1 1 17.5 0zm-5.298-6.377c.225.376.429.79.609 1.234.208-.14.394-.291.553-.45a7.263 7.263 0 0 0-1.162-.784zm0 12.754c.408-.221.791-.48 1.147-.772a3.867 3.867 0 0 0-.547-.44 8.967 8.967 0 0 1-.6 1.212zm1.082-2.677c.423.247.801.529 1.119.84a7.216 7.216 0 0 0 1.559-3.79h-2.244a14.54 14.54 0 0 1-.434 2.95zm1.132-8.224c-.32.314-.7.599-1.126.849.232.905.38 1.891.428 2.925h2.244a7.215 7.215 0 0 0-1.546-3.774zM5.548 2.623c-.42.228-.814.495-1.178.797.163.16.352.31.563.452.182-.45.387-.868.615-1.249zm0 12.754a8.982 8.982 0 0 1-.606-1.226 3.914 3.914 0 0 0-.556.442c.36.297.749.56 1.162.784zM4.456 5.339a5.74 5.74 0 0 1-1.134-.848A7.215 7.215 0 0 0 1.788 8.25h2.244c.048-1.028.194-2.01.424-2.911zm-1.121 8.185a5.76 5.76 0 0 1 1.127-.838 14.548 14.548 0 0 1-.43-2.936H1.788a7.215 7.215 0 0 0 1.547 3.774z"></path></g></g></svg>
+          </div>
+    </div>
+  
+</div>
+
+
+
+
+
+<link rel="stylesheet" href="https://static.emaktab.uz/client/chat_notifications.css?v=893f4a26" media="all" type="text/css">
+
+                </div>
+                <div class="page-header__panel-container_items page-header__panel-container_items_uz">
+                        <div class="page-header__panel-container page-header__panel-container_header-localization-select">
+                            
+<div class="header-localization-select header-localization-select_top-14 ">
+    <div class="header-localization-select__info">
+        <div class="header-localization-select__info_row header-localization-select__info_row-content">Рус</div>
+        <div class="header-localization-select__info_row header-localization-select__tumbler"></div>
+    </div>
+    
+    
+
+<div class="dropdown-container dropdown-container_font-weight-bold dropdown-container_left-position-0 dropdown-container_no-specific-last-child ">
+
+<a href="https://emaktab.uz/api/localization/change?newCulture=ru-RU&amp;currentUrl=https%3a%2f%2femaktab.uz%2fuserfeed" title="Русский" class="link link_dropdown-container-link link_dropdown-container-link_selected link_ ">
+    Русский
+    
+</a>
+<a href="https://emaktab.uz/api/localization/change?newCulture=uz-Latn-UZ&amp;currentUrl=https%3a%2f%2femaktab.uz%2fuserfeed" title="O‘zbek" class="link link_dropdown-container-link link_ link_ ">
+    O‘zbek
+    
+</a></div>
+</div>
+                        </div>
+                    <div class="page-header__panel-container page-header__panel-container_profile">
+                        
+
+
+
+<div class="user-profile-box" data-test-id="user-profile-info">
+    <div class="user-profile-box__info">
+        <div class="user-profile-box__info_row user-profile-box__avatar">
+            <img src="https://static.emaktab.uz/images/avatars/user/a.s.jpg">
+        </div>
+        <div class="user-profile-box__info_row user-profile-box__info_row-content">
+            <p class="user-profile-box__info_row-content user-profile-box__initials">Muhammadyusupov X.D.</p>
+            <p class="user-profile-box__info_row-content user-profile-box__category">Ученик</p>
+        </div>
+        <div class="user-profile-box__info_row user-profile-box__tumbler"></div>
+    </div>
+
+    
+
+<div class="dropdown-container">
+
+<a href="https://emaktab.uz/billing/paidAccess/paymentPage" title="Подписки" class="link link_dropdown-container-link link_ link_ ">
+    Подписки
+    
+</a>
+<a href="https://emaktab.uz/v2/user/settings?user=1000009825645" title="Настройки" class="link link_dropdown-container-link link_ link_ ">
+    Настройки
+    
+</a>
+<a href="https://login.emaktab.uz/logout" title="Выйти из eMaktab" class="link link_dropdown-container-link link_ link_box-sizing-content-box " id="profile_logout">
+    Выйти из eMaktab
+    
+</a></div>
+    <form name="profileLogout" action="https://login.emaktab.uz/logout" method="post">
+    </form>
+</div>
+
+
+
+
+
+
+
+                    </div>
+                    <div class="page-header__panel-container page-header__panel-container_end">
+                        
+
+<div class="header-links">
+    <a class="header-links__link" href="https://help.kundalik.com/hc/ru/" target="_blank">Помощь</a>
+    <form name="logout" action="https://login.emaktab.uz/logout" method="post">
+        <a class="header-links__link" href="file:///D:/JDW/index.html#">Выход</a>
+    </form>
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear">
+            <ul class="header-menu"><li class="header-menu__item header-menu__item_active header-menu__item_current"><a class="header-menu__link" href="https://emaktab.uz/userfeed" target="_self" title="" data-test-id="Образование">Образование </a><ul class="header-submenu header-submenu_active"><li class="header-submenu__item"><a class="header-submenu__link" href="https://schools.emaktab.uz/v2/school" title="" data-test-id="Моя школа">Моя школа </a></li><li class="header-submenu__item"><a class="header-submenu__link" href="https://schools.emaktab.uz/v2/class" title="" data-test-id="Мой класс">Мой класс </a></li><li class="header-submenu__item"><a class="header-submenu__link" href="https://schools.emaktab.uz/marks.aspx" title="" data-test-id="Дневник">Дневник </a></li><li class="header-submenu__item"><a class="header-submenu__link" href="https://schools.emaktab.uz/v2/schedules/" title="" data-test-id="Расписание">Расписание </a></li><li class="header-submenu__item"><a class="header-submenu__link" href="https://schools.emaktab.uz/homework.aspx" title="" data-test-id="Домашние задания">Домашние задания </a></li><ul class="header-submenu__item header-submenu__more-item" style="display: none;"><div class="header-submenu__more-item-name">Ещё</div></ul></ul></li><li class="header-menu__item"><a class="header-menu__link" href="https://emaktab.uz/v2/user/user" title="" data-test-id="Профиль">Профиль </a><ul class="header-submenu"><li class="header-submenu__item"><a class="header-submenu__link" href="https://emaktab.uz/soc/messenger/" title="" data-test-id="Сообщения">Сообщения </a></li><li class="header-submenu__item"><a class="header-submenu__link" href="https://emaktab.uz/v2/user/user?view=files" title="" data-test-id="Файлы">Файлы </a></li><ul class="header-submenu__item header-submenu__more-item"><div class="header-submenu__more-item-name">Ещё</div></ul></ul></li><li class="header-menu__item"><a class="header-menu__link" href="https://emaktab.uz/v2/soc/networks" title="" data-test-id="Общение">Общение </a><ul class="header-submenu"><li class="header-submenu__item"><a class="header-submenu__link" href="https://emaktab.uz/v2/soc/networks" title="" data-test-id="Сети">Сети </a></li><ul class="header-submenu__item header-submenu__more-item"><div class="header-submenu__more-item-name">Ещё</div></ul></ul></li><li class="header-menu__item"><a class="header-menu__link" href="https://emaktab.uz/soc/apps/?utm_source=dnevnik&amp;utm_medium=mainnav&amp;utm_campaign=button" title="" data-test-id="Приложения">Приложения </a></li><li class="header-menu__item header-menu__item_ext"><div class="header-menu__banner-container"><div class="1dd2ee636ab64a0e8db7879992490ec9 asyncMenuButtonBanner"><!--В <head> сайта один раз добавьте код загрузчика-->
+
+
+<!--AdFox START-->
+<!--Dnevnik.ru-->
+<!--Площадка: Kundalik.com / main / Кнопка меню-->
+<!--Категория: <не задана>-->
+<!--Тип баннера: Кнопка меню_2-->
+<div id="adfox_168906368678147218"></div>
+</div></div></li></ul>
+        </div>
+    </div>
+    
+
+    </div>
+    
+
+
+
+    
+
+
+
+<link rel="stylesheet" href="https://static.emaktab.uz/client/user_start_page.css?v=8ccd57c6" type="text/css">
+<div id="survey-form"></div>
+<div id="push-notifications"></div>
+<div id="user-start-page"><div class="_22l7O"><div class=""><div class="cJH_1"><div class="_37lBA"><div class="yjdOk"><span class="_3Gg21 VF2FN _21Pjw">MX</span></div><div class="_1U24T"><div class="tw6_g">Xojimurod Muhammadyusupov</div><div class="_2Sjz4">9-V, Samarqand shahar 7-maktab</div></div><div class="J40gS"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11"><g><g transform="rotate(45 4 3)"><path fill="#0087c0" d="M6.805-1a1 1 0 0 1 2 0v6a1 1 0 0 1-1 1h-6a1 1 0 0 1 0-2h5z"></path></g></g></svg></div></div></div><div class="_1vjpx"><div class="-Wnqn"><div class="_1qvc1"><div class="_2NJg8">⁨Уроки⁩ закончились в ⁨12:55⁩. ⁨Завтра ⁨6⁩ ⁨уроков⁩.⁩</div></div><div class="_1qvc1"><div class="_22MzB">6</div><div class="_2NJg8">⁨домашних заданий⁩ на завтра</div></div></div><div class="_8MnqF _1x2mZ"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11"><g><g transform="rotate(225 6 4)"><path fill="#0087c0" d="M6.805-1a1 1 0 0 1 2 0v6a1 1 0 0 1-1 1h-6a1 1 0 0 1 0-2h5z"></path></g></g></svg></div><div class="O419S"><div class="_3jz_s"><div class="_2Hg-R"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16"><g><g><path d="M7.488 16a.442.442 0 0 0 .211-.108c.117-.144.117-.288 0-.433L1.02 8.29h16.665c.187-.025.293-.12.316-.289-.047-.192-.152-.3-.316-.324H1.02L7.7.505c.116-.145.116-.289 0-.433a.345.345 0 0 0-.423 0L.07 7.784v.036l-.035.036A.602.602 0 0 0 0 8a.281.281 0 0 1 .035.108l.035.036v.072l7.207 7.676c.07.072.141.108.211.108z"></path></g></g></svg></div><div class="_3tdXB">12 окт., 
+          четверг</div><div data-test-id="next-date-schedule" class="BJvVR"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16"><g><g><path d="M10.512 16a.442.442 0 0 1-.211-.108c-.117-.144-.117-.288 0-.433l6.68-7.17H.315C.13 8.263.023 8.168 0 8c.047-.192.152-.3.316-.324H16.98L10.3.505c-.116-.145-.116-.289 0-.433a.345.345 0 0 1 .423 0l7.207 7.712v.036l.035.036c.023.072.035.12.035.144a.281.281 0 0 0-.035.108l-.035.036v.072l-7.207 7.676c-.07.072-.141.108-.211.108z"></path></g></g></svg></div></div><div><div class="VdaHU _16NbC"><div class="_1Ig3l"><div class="kbQNt">⁨1⁩ ⁨УРОК ⁨⁩⁩</div><div class="_3L3n2">8:00 - 8:45</div><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11"><g><g transform="rotate(-45 3 2)"><path fill="#0087c0" d="M3.66 3a1 1 0 0 1 2 0v6a1 1 0 0 1-1 1h-6a1 1 0 0 1 0-2h5z"></path></g></g></svg></div><div class="_3QezN"><div class="_2Yx22"><div class="_201cJ">Алгебра</div><div class="_1gFiL">Метод интервалов</div></div><div class="_2Loot"><div class="_1w5EU _3qeaX">10</div><div class="_1w5EU _yb3f">10</div></div></div><div class="_2YXPO"><div class="_2j_JP">74,75</div></div></div><div class="VdaHU _16NbC"><div class="_1Ig3l"><div class="kbQNt">⁨2⁩ ⁨УРОК ⁨⁩⁩</div><div class="_3L3n2">8:50 - 9:35</div><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11"><g><g transform="rotate(-45 3 2)"><path fill="#0087c0" d="M3.66 3a1 1 0 0 1 2 0v6a1 1 0 0 1-1 1h-6a1 1 0 0 1 0-2h5z"></path></g></g></svg></div><div class="_3QezN"><div class="_2Yx22"><div class="_201cJ">Английский язык</div><div class="_1gFiL">Talking about the past</div></div><div class="_2Loot"><div class="_1w5EU _2daeZ">4</div><div class="_1w5EU dQ2KZ">4</div></div></div><div class="_2YXPO"><div class="_2j_JP">WB page 16</div></div></div><div class="VdaHU _16NbC"><div class="_1Ig3l"><div class="kbQNt">⁨3⁩ ⁨УРОК ⁨⁩⁩</div><div class="_3L3n2">9:40 - 10:25</div><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11"><g><g transform="rotate(-45 3 2)"><path fill="#0087c0" d="M3.66 3a1 1 0 0 1 2 0v6a1 1 0 0 1-1 1h-6a1 1 0 0 1 0-2h5z"></path></g></g></svg></div><div class="_3QezN"><div class="_2Yx22"><div class="_201cJ">Русский язык</div><div class="_1gFiL">Сложносочиненные предложения.</div></div><div class="_2Loot"></div></div><div class="_2YXPO"><div class="_2j_JP">написать рецензию</div></div></div><div class="VdaHU _16NbC"><div class="_1Ig3l"><div class="kbQNt">⁨4⁩ ⁨УРОК ⁨⁩⁩</div><div class="_3L3n2">10:30 - 11:15</div><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11"><g><g transform="rotate(-45 3 2)"><path fill="#0087c0" d="M3.66 3a1 1 0 0 1 2 0v6a1 1 0 0 1-1 1h-6a1 1 0 0 1 0-2h5z"></path></g></g></svg></div><div class="_3QezN"><div class="_2Yx22"><div class="_201cJ">Литература</div><div class="_1gFiL">А. С. Грибоедов. Очерк жизни и творчества.</div></div><div class="_2Loot"></div></div><div class="_2YXPO"><div class="_2j_JP">написать конспект</div></div></div><div class="VdaHU _16NbC"><div class="_1Ig3l"><div class="kbQNt">⁨5⁩ ⁨УРОК ⁨⁩⁩</div><div class="_3L3n2">11:20 - 12:05</div><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11"><g><g transform="rotate(-45 3 2)"><path fill="#0087c0" d="M3.66 3a1 1 0 0 1 2 0v6a1 1 0 0 1-1 1h-6a1 1 0 0 1 0-2h5z"></path></g></g></svg></div><div class="_3QezN"><div class="_2Yx22"><div class="_201cJ">Физическая культура</div><div class="_1gFiL">Futbol: Nazariy: Umumta‘lim maktablarida futbol sport musoboqalani o‘tkazish haqida tushuncha. Amaliy: To‘pni oyoqning tashqi va ichki tomoni bilan to‘g‘ri chiziq bo‘ylab, o‘ng va chap oyoqlar bilan yo‘nalishi va tezligini o‘zgartirgan holda (himoyachi qarshiligisiz) olib yurish. O‘quv o‘yin</div></div><div class="_2Loot"><div class="_1w5EU _2daeZ">5</div></div></div><div class="_2YXPO"><div class="_2j_JP">To'p  bilan  mashq bajarish</div></div></div><div class="VdaHU _16NbC"><div class="_1Ig3l"><div class="kbQNt">⁨6⁩ ⁨УРОК ⁨⁩⁩</div><div class="_3L3n2">12:10 - 12:55</div><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 11 11"><g><g transform="rotate(-45 3 2)"><path fill="#0087c0" d="M3.66 3a1 1 0 0 1 2 0v6a1 1 0 0 1-1 1h-6a1 1 0 0 1 0-2h5z"></path></g></g></svg></div><div class="_3QezN"><div class="_2Yx22"><div class="_201cJ">История Узбекистана</div><div class="_1gFiL">Начало военных действий против Бухарского эмирата</div></div><div class="_2Loot"></div></div><div class="_2YXPO"><div class="_2j_JP">конспект и пересказ </div></div></div></div></div></div><div class="uqgc5"></div><div class="_26BYY"><div class="fnlsP">Успеваемость</div><div class="_13kTy"><div class="_21UXD"><div class="_2GLpJ"><div class="_1R2Bf"><div class="_3ZCMs"><div class="XzgGs"><div class="_8aeAc">Сегодня</div><div class="cSac0"><div class="LO0nf" data-mark-id="2138743674547755355"><div class="_38lGE _1S5q3"><div class="_1OVaf _3SFtq"></div>5</div><div></div><div class="_36lYy">Физическая культура</div><div class="E7E6O">ОТВ⁨ ⁩за ⁨12 окт.⁩</div></div><div class="LO0nf" data-mark-id="2138733632914206181"><div class="_38lGE _3AhRE"><div class="_1OVaf _3vs5w"></div>8</div><div></div><div class="_36lYy">Алгебра</div><div class="E7E6O">ДЗ⁨ ⁩за ⁨12 окт.⁩</div></div><div class="LO0nf" data-mark-id="2138733564194728496"><div class="_38lGE _1xNGa"><div class="_1OVaf _3vs5w"></div>40</div><div></div><div class="_36lYy">Алгебра</div><div class="E7E6O">ОТВ⁨ ⁩за ⁨12 окт.⁩</div></div><div class="LO0nf" data-mark-id="2138708215297788479"><div class="_38lGE _1S5q3"><div class="_1OVaf"></div>4</div><div></div><div class="_36lYy">Английский язык</div><div class="E7E6O">ОТВ⁨ ⁩за ⁨12 окт.⁩</div></div><div class="LO0nf" data-mark-id="2138708198117919122"><div class="_38lGE _1nLCM"><div class="_1OVaf"></div>4</div><div></div><div class="_36lYy">Английский язык</div><div class="E7E6O">ДЗ⁨ ⁩за ⁨12 окт.⁩</div></div></div></div><div class="XzgGs"><div class="_8aeAc">Вчера</div><div class="cSac0"><div class="LO0nf" data-mark-id="2138527427239376074"><div class="_38lGE _1S5q3"><div class="_1OVaf _3jQCF"></div>5</div><div></div><div class="_36lYy">География</div><div class="E7E6O">ОТВ⁨ ⁩за ⁨11 окт.⁩</div></div><div class="LO0nf" data-mark-id="2138402563950159395"><div class="_38lGE _1nLCM"><div class="_1OVaf _3vs5w"></div>3</div><div></div><div class="_36lYy">Информатика</div><div class="E7E6O">ДЗ⁨ ⁩за ⁨11 окт.⁩</div></div><div class="LO0nf" data-mark-id="2138402456575975558"><div class="_38lGE _1xNGa"><div class="_1OVaf _3vs5w"></div>3</div><div></div><div class="_36lYy">Информатика</div><div class="E7E6O">ОТВ⁨ ⁩за ⁨11 окт.⁩</div></div><div class="LO0nf" data-mark-id="2138368139787241966"><div class="_38lGE _1S5q3"><div class="_1OVaf"></div>5</div><div></div><div class="_36lYy">Davlat tili</div><div class="E7E6O">ДЗ⁨ ⁩за ⁨7 окт.⁩</div></div><div class="LO0nf" data-mark-id="2138367551376778910"><div class="_38lGE _1S5q3"><div class="_1OVaf"></div>5</div><div></div><div class="_36lYy">Davlat tili</div><div class="E7E6O">ОТВ⁨ ⁩за ⁨7 окт.⁩</div></div></div></div><div class="XzgGs"><div class="_8aeAc">10 октября</div><div class="cSac0"><div class="LO0nf" data-mark-id="2138004665294972743"><div class="_38lGE _1S5q3"><div class="_1OVaf _3jQCF"></div>4</div><div></div><div class="_36lYy">Физика</div><div class="E7E6O">ОТВ⁨ ⁩за ⁨10 окт.⁩</div></div><div class="LO0nf" data-mark-id="2138004626640266632"><div class="_38lGE _1nLCM"><div class="_1OVaf _3jQCF"></div>4</div><div></div><div class="_36lYy">Физика</div><div class="E7E6O">ДЗ⁨ ⁩за ⁨10 окт.⁩</div></div><div class="LO0nf" data-mark-id="2137986519058090510"><div class="_38lGE _3AhRE"><div class="_1OVaf _3vs5w"></div>3200</div><div></div><div class="_36lYy">Алгебра</div><div class="E7E6O">ДЗ⁨ ⁩за ⁨10 окт.⁩</div></div><div class="LO0nf" data-mark-id="2137983040134599202"><div class="_38lGE _1S5q3"><div class="_1OVaf HCVQy"></div>5</div><div></div><div class="_36lYy">История Узбекистана</div><div class="E7E6O">ОТВ⁨ ⁩за ⁨10 окт.⁩</div></div><div class="LO0nf" data-mark-id="2137968587569636095"><div class="_38lGE _1S5q3"><div class="_1OVaf"></div>4</div><div></div><div class="_36lYy">Литература</div><div class="E7E6O">ОТВ⁨ ⁩за ⁨10 окт.⁩</div></div></div></div></div><div class="_1ckqo xbvGV"><div class="_20kHy"><div></div></div></div></div></div></div></div><div class="_1hbHd"><div class="_2jUqj"></div><div>Нажмите на оценку, чтобы увидеть рейтинг</div></div></div></div><div><div class="jUqSW" data-id="feed-title">События</div><div class="_1vhfw"></div><div class="_1tiUd">Здесь появятся объявления и новости</div></div></div></div>
+
+
+    <link rel="stylesheet" href="https://static.emaktab.uz/client/survey_form.css?v=9f4f0983" type="text/css">
+    
+    <link rel="stylesheet" href="https://static.emaktab.uz/client/push_notifications.css?v=a01e1a19" type="text/css">
+    
+
+
+
+
+
+
+
+
+
+    <div class="page-footer page-footer_auth" id="">
+            <div class="page-footer__banner">
+                <div class="bd8031021e3b454f8d926ac43f8baf61 asyncBottom728x90Banner"><!--AdFox START-->
+<!--Dnevnik.ru-->
+<!--Площадка: Kundalik.com / main / 728x90-->
+<!--Категория: <не задана>-->
+<!--Тип баннера: 728х90-->
+<div id="adfox_166936212187487327"></div>
+</div>
+                
+            </div>
+        <div class="page-footer__content">
+            <div class="page-footer__menu-layout ">
+                    <ul class="page-footer__menu">
+                        <li class="page-footer__menu-item">
+                            <a href="https://emaktab.uz/about" title="Подробнее о eMaktab" class="page-footer__menu-link">О проекте</a>
+                        </li>
+                        <li class="page-footer__menu-item">
+                            <a href="https://emaktab.uz/news" title="Пресс-центр" class="page-footer__menu-link">Новости</a>
+                        </li>
+                        <li class="page-footer__menu-item">
+                            <a href="https://help.kundalik.com/" target="_blank" title="Служба поддержки" class="page-footer__menu-link page-footer__menu-link_support">Служба поддержки</a>
+                        </li>
+                        <li class="page-footer__menu-item">
+                            <a href="https://emaktab.uz/contacts" title="Служба поддержки" class="page-footer__menu-link">Контакты</a>
+                        </li>
+                    </ul>
+                        <ul class="page-footer__social">
+                                <li class="page-footer__social-item">
+                                    <a href="https://www.facebook.com/emaktab.uz" title="eMaktab в Facebook" class="page-footer__social-link page-footer__social-link_facebook" target="_blank"></a>
+                                </li>
+                                <li class="page-footer__social-item">
+                                    <a href="https://www.instagram.com/emaktab.uz/" title="eMaktab в Instagram" class="page-footer__social-link page-footer__social-link_instagram" target="_blank"></a>
+                                </li>
+                                <li class="page-footer__social-item">
+                                    <a href="https://t.me/emaktab_uz" title="eMaktab в Telegram" class="page-footer__social-link page-footer__social-link_telegram" target="_blank"></a>
+                                </li>
+                                <li class="page-footer__social-item">
+                                    <a href="https://www.youtube.com/@emaktabuzb" title="eMaktab на YouTube" class="page-footer__social-link page-footer__social-link_youtube" target="_blank"></a>
+                                </li>
+                        </ul>
+                <div class="page-footer__statistics">
+                </div>
+
+            </div>
+
+                <div class="page-footer__mobile-app-links">
+                    <div class="page-footer__mobile-app-links_header">
+                        Мобильное приложение
+                    </div>
+                    <div>
+                        <a target="_blank" href="https://apps.apple.com/ru/app/kundalik-family/id1526435440" class="page-footer__mobile-app-links__badge page-footer__mobile-app-links__badge-appStore">
+                            <img class="page-footer__mobile-app-links__badge_img" src="https://static.emaktab.uz/images/storebadges/appstore/AppStore_ru-RU.svg">
+                        </a>
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=uz.kundalik.mobile" class="page-footer__mobile-app-links__badge page-footer__mobile-app-links__badge-googlePlay">
+                            <img class="page-footer__mobile-app-links__badge_img" src="https://static.emaktab.uz/images/storebadges/googleplay/GooglePlay_ru-RU.svg">
+                        </a>
+                    </div>
+                </div>
+                
+
+            <div class="page-footer__copyright-layout">
+                <a href="https://emaktab.uz/terms/" class="page-footer__copyright-layout-agreement">Пользовательское соглашение</a>
+                <div class="page-footer__copyright-layout-details">
+                    <p class="page-footer__copyright-layout__terms">© 2023 ООО «Kundalik»</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+<div class="clear"></div>    <!-- tns-counter.ru --><!--/ tns-counter.ru -->
+    
+
+
+    
+
+
+
+</body><div id="sm-wrapper"><template shadowmode="open">
+    
+      <div class="app"><div data-v-39eef0ff=""><!----></div></div></template></div></html>
